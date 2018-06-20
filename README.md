@@ -1,5 +1,19 @@
 # Swagger UI
 
+## Kitura changes
+The following changes have been made for inclusion in the Kitura-OpenAPI package:
+
+- src/style/_variables.scss: Change value for color-primary to #00bbe6.
+- src/style/_variables.scss: Change value for topbar-download-url-wrapper-element-border-color to #02728b.
+- src/style/_variables.scss: Change value for topbar-download-url-button-background-color to #02728b.
+- src/plugins/topbar/logo_small.png: Kitura specific icon.
+- src/plugins/topbar/topbar.jsx: Link icon in topbar to kitura.io.
+- src/img/logo_small.png: Kitura specific icon.
+- dist/favicon-16x16.png: Kitura specific icon.
+- dist/favicon-32x32.png: Kitura specific icon.
+- dist/index.stencil: Add Stencil template for index.html.
+- dist/index.html: Removed.
+
 [![NPM version](https://badge.fury.io/js/swagger-ui.svg)](http://badge.fury.io/js/swagger-ui)
 
 **👉🏼 Want to score an easy open-source contribution?** Check out our [Good first issue](https://github.com/swagger-api/swagger-ui/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+first+issue%22) label.
